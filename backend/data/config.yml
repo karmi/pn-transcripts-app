@@ -1,0 +1,248 @@
+r2:
+  endpoint: https://aa52ad53a24aea26ef382a5dc447b06a.r2.cloudflarestorage.com
+  bucket_audio: pamet-naroda-audio
+  bucket_text: pamet-naroda-transcripts
+
+ui:
+  title: "Transcriptions"
+
+items:
+  - id: "01_Krezek_audio"
+    category: audio
+    name: Bohumír Krézek
+    url: https://www.pametnaroda.cz/cs/krezek-bohumir-1914
+    quality_speech: 5
+    quality_audio: 3
+    note: velmi nesouvislé vyprávění, unavený pamětník
+
+  - id: "02_Burger_audio"
+    category: audio
+    name: Adolf Burger
+    url: https://www.pametnaroda.cz/cs/burger-adolf-1917
+    quality_speech: 1
+    quality_audio: 2
+    note: čeština se mísí se slovenštinou a němčinou
+
+  - id: "03_Machacek_audio"
+    category: audio
+    name: Karel Macháček
+    url: https://www.pametnaroda.cz/cs/machacek-karel-1916
+    quality_speech: 1
+    quality_audio: 3
+    note: natáčeno v restauraci, spousta ruchů
+
+  - id: "04_Kratochvil_audio"
+    category: audio
+    name: Miloslav Kratochvíl-Bitton
+    url: https://www.pametnaroda.cz/cs/kratochvil-bitton-miloslav-1919
+    quality_speech: 3
+    quality_audio: 3
+    note: méně souvislé vyprávění, anglická slova, nepřesné české ekvivalenty, pláč. Ruchy z okolí
+
+  - id: "05_Grant_audio"
+    category: audio
+    name: Jiří Grant
+    url: https://www.pametnaroda.cz/cs/grant-jiri-1920
+    quality_speech: 3
+    quality_audio: 3
+    note: ruchy, do vyprávění vstupuje třetí osoba
+
+  - id: "06_Albrightova_distancni"
+    category: distanční
+    name: Madeleine Albright
+    url: https://www.pametnaroda.cz/cs/albright-madeleine-1937
+    quality_speech: 2
+    quality_audio: 2
+    note: americký přízvuk,  užívá i anglická slova
+
+  - id: "07_Adam_distancni"
+    category: distanční
+    name: Ervin Adam
+    url: https://www.pametnaroda.cz/cs/adam-ervin-1922
+    quality_speech: 4
+    quality_audio: 3
+    note: unavený pamětník, horší kvalita
+
+  - id: "08_Steklik_ED"
+    category: ED
+    name: Jan Steklík
+    url: https://www.pametnaroda.cz/cs/steklik-jan-1938
+    quality_speech: 4
+    quality_audio: 1
+    note: mumlá, je mu špatně rozumět
+
+  - id: "09_Skripka_ED"
+    category: ED
+    name: Jaroslav Skřipka
+    url: https://www.pametnaroda.cz/cs/skripka-jaroslav-1934
+    quality_speech: 3
+    quality_audio: 3
+    note: nářečí
+
+  - id: "10_Ondruch_ED"
+    category: ED
+    name: Metoděj Ondruch
+    url: https://www.pametnaroda.cz/cs/ondruch-metodej-1911
+    quality_speech: 1
+    quality_audio: 1
+    note: nářečí
+
+  - id: "11_Blinka_ED"
+    category: ED
+    name: Petr Blinka
+    url: https://www.pametnaroda.cz/cs/blinka-petr-1935
+    quality_speech: 3
+    quality_audio: 3
+    note: nesrozumitelná artikulace
+
+  - id: "12_Scerban_ED"
+    category: ED
+    name: Jaroslav Ščerban
+    url: https://www.pametnaroda.cz/cs/scerban-jaroslav-1930
+    quality_speech: 2
+    quality_audio: 3
+    note: špatná kvalita, pamětník odbočuje
+
+  - id: "13_Vransky_ED"
+    category: ED
+    name: Ivan Vraný
+    url: https://www.pametnaroda.cz/cs/vransky-ivan-1933
+    quality_speech: 3
+    quality_audio: 3
+    note: mluví velmi rychle
+
+  - id: "14_Hercz_audio"
+    category: audio
+    name: Jiří Hercz
+    url: https://www.pametnaroda.cz/cs/hercz-jiri-1924
+    quality_speech: 2
+    quality_audio: 2
+    note: šumy v nahrávce
+
+  - id: "15_Vocasek_audio"
+    category: audio
+    name: Miroslav Vocásek
+    url: https://www.pametnaroda.cz/cs/vocasek-miroslav-1929
+    quality_speech: 2
+    quality_audio: 2
+    note: časté opakování slov
+
+  - id: "16_Fundova_audio"
+    category: audio
+    name: Věra Fundová
+    url: https://www.pametnaroda.cz/cs/fundova-vera-1930
+    quality_speech: 3
+    quality_audio: 3
+    note: unavený hlas
+
+  - id: "17_Wiendl_ED"
+    category: ED
+    name: Jiří Wiendl
+    url: https://www.pametnaroda.cz/cs/wiendl-jiri-1938
+    quality_speech: 3
+    quality_audio: 3
+    note: výrazné nářečí
+
+  - id: "18_Vas_audio"
+    category: audio
+    name: Jaroslav Váš
+    url: https://www.pametnaroda.cz/cs/vas-jaroslav-1929
+    quality_speech: 3
+    quality_audio: 2
+    note: slabý hlas
+
+  - id: "19_Stransky_ED"
+    category: ED
+    name: Robin Stránský
+    url: https://www.pametnaroda.cz/cs/stransky-robin-1932
+    quality_speech: 3
+    quality_audio: 3
+    note: pamětník odbočuje, nesouvislé pasáže
+
+  - id: "20_Krzak_audio"
+    category: audio
+    name: Josef Křžák
+    url: https://www.pametnaroda.cz/cs/krzak-josef-1920
+    quality_speech: 3
+    quality_audio: 3
+    note: průměrná kvalita
+
+  - id: "21_Vavrova_poskytnute"
+    category: poskytnuté
+    name: Olga Vávrová
+    url: https://www.pametnaroda.cz/cs/vavrova-olga-1926
+    quality_speech: 4
+    quality_audio: 3
+    note: velmi špatná kvalita (kopie)
+
+  - id: "22_Hlupik_ED"
+    category: ED
+    name: Rudolf Hlupík
+    url: https://www.pametnaroda.cz/cs/hlupik-rudolf-1927
+    quality_speech: 2
+    quality_audio: 3
+    note: nesrozumitelný přízvuk
+
+  - id: "23_Bocek_ED"
+    category: ED
+    name: Jan Boček
+    url: https://www.pametnaroda.cz/cs/bocek-jan-1930
+    quality_speech: 3
+    quality_audio: 3
+    note: pamětník odbočuje
+
+  - id: "24_Gomola_audio"
+    category: audio
+    name: Alois Gomola
+    url: https://www.pametnaroda.cz/cs/gomola-alois-1931
+    quality_speech: 3
+    quality_audio: 2
+    note: slabý hlas, ruchy z okolí
+
+  - id: "25_Sturt_audio"
+    category: audio
+    name: Karel Sturt
+    url: https://www.pametnaroda.cz/cs/sturt-karel-1933
+    quality_speech: 2
+    quality_audio: 2
+    note: mluví příliš rychle
+
+  - id: "26_Karsek_audio"
+    category: audio
+    name: Petr Karšek
+    url: https://www.pametnaroda.cz/cs/karsek-petr-1934
+    quality_speech: 2
+    quality_audio: 3
+    note: špatná kvalita nahrávky
+
+  - id: "27_Bilkova_audio"
+    category: audio
+    name: Milada Bílková
+    url: https://www.pametnaroda.cz/cs/bilkova-milada-1935
+    quality_speech: 3
+    quality_audio: 3
+    note: dobrá srozumitelnost
+
+  - id: "28_Butova_audio"
+    category: audio
+    name: Marie Buťová
+    url: https://www.pametnaroda.cz/cs/butova-marie-1936
+    quality_speech: 3
+    quality_audio: 3
+    note: ruchy v pozadí
+
+  - id: "29_Cerna_audio"
+    category: audio
+    name: Janina Černá
+    url: https://www.pametnaroda.cz/cs/cerna-janina-1923
+    quality_speech: 1
+    quality_audio: 1
+    note: vzorová audio nahrávka
+
+  - id: "30_Maryska_poskytnute"
+    category: poskytnuté
+    name: František Maryška
+    url: https://www.pametnaroda.cz/cs/maryska-frantisek-1930
+    quality_speech: 3
+    quality_audio: 3
+    note: velmi špatná nahrávka (pořízeno v 70. letech)

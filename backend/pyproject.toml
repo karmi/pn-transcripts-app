@@ -1,0 +1,18 @@
+[project]
+name = "pn-transcriptions"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.40.39",
+    "flask>=3.1.2",
+    "itsdangerous>=2.2.0",
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.9.0",
+    "pytest>=8.4.2",
+    "ruff>=0.13.2",
+]
