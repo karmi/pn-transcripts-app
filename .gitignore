@@ -3,4 +3,8 @@ uv.lock
 __pycache__
 *.egg-info
 
+node_modules
+dist
+.vite
+
 tmp/

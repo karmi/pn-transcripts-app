@@ -12,6 +12,15 @@ CONFIG_PATH = os.environ.get("CONFIG_PATH", "data/config.yml")
 R2_KEY = os.environ["R2_ACCESS_KEY_ID"]
 R2_SECRET = os.environ["R2_SECRET_ACCESS_KEY"]
 
+ALLOWED_ORIGINS = {
+    o.strip()
+    for o in os.environ.get(
+        "ALLOWED_ORIGINS",
+        "http://localhost:5173,http://127.0.0.1:5173",
+    ).split(",")
+    if o.strip()
+}
+
 cfg = load_config(CONFIG_PATH)
 s3 = r2_client(cfg.r2.endpoint, R2_KEY, R2_SECRET)
 
@@ -35,6 +44,17 @@ def create_app():
             resp.headers["Cache-Control"] = (
                 "public, max-age=300, stale-while-revalidate=86400"
             )
+
+        # CORS
+        origin = request.headers.get("Origin")
+        if origin in ALLOWED_ORIGINS:
+            resp.headers["Access-Control-Allow-Origin"] = (
+                origin  # echo back the actual origin
+            )
+            resp.headers["Vary"] = "Origin"
+            resp.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+            resp.headers["Access-Control-Allow-Headers"] = "Content-Type"
+            resp.headers["Access-Control-Allow-Credentials"] = "true"
         return resp
 
     @app.get("/health")
