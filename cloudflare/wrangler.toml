@@ -1,0 +1,27 @@
+name = "pn-transcripts"
+main = "src/index.js"
+compatibility_date = "2025-09-26"
+
+preview_urls = true
+workers_dev = true
+
+[vars]
+CONFIG_PATH = "data/config.yml"
+
+[[containers]]
+name          = "pn-transcripts-cloudflare"
+class_name    = "Backend"
+image         = "../Dockerfile"
+max_instances = 3
+instance_type = "basic"
+
+[[durable_objects.bindings]]
+name       = "BACKEND"
+class_name = "Backend"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Backend"]
+
+[observability.logs]
+enabled = true

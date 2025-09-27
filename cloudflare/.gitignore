@@ -1,0 +1,4 @@
+.env
+*.vars
+package-lock.json
+.wrangler
